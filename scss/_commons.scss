@@ -3,60 +3,60 @@
 	margin: 0;
 }
 
-h1, 
-h2, 
-h3,
-a{
-	font-family: $mainFont;
-	color:$keyColor;
-	padding: 10px 30px;
+// Fondos
+
+.bg-brown{
+	background-color: $mainColor;
+	color: $white;
+}
+.bg-li-brown{
+	background-color: $secondaryColor;
+}
+.cofeeBg{
+	background-image: url("../img/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	opacity: 0.5;
 }
 
-h1{
-	font-size: $textXl;
-}
+// botones
 
-h2{
-	font-size: $textLg;
-}
 
-h3{
-	font-size: $textMd;
+.btnStyle{
+	&:hover{
+		color: $white;
+		background-color:$blueSecond;		
+		transition: background-color 0,8s;
+	}
 }
-
-p{
-	font-family: $mainFont;
-	line-height: 1.4em;
-	color:$grey;
-	font-size: $textMd;
-	padding: 10px 30px;
+.efecto{
+	&:hover{
+		transform: scale(1.1);
+		}
 }
 
 
+//imagenes
 
-// backgrounds
-.bgLight{
-	background-color:rgba(243, 240, 240, .8) ;
+.chico{
+	width: 10%;
 }
 
-.bgDark{
-	background-color: rgba(195, 190, 190, .8);
+//queries
+
+@media (max-width: 576px){
+	.ali{
+		width: 95%;
+	}
 }
-
-//botones 
-
-.btnXl{
-	width:50%;
-	height: 30px;
-	background-color: white;
-	color: violet;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 5px;
-	margin-left: 50px;
-	font-size: 2rem;
-	/****display flex****/
-	display: flex;
-	justify-content: center;
-	align-items: center;
+@media (min-width: 576px){
+	.ancho{
+		width: 75%;
+		margin-right: 20px;
+	}
+	.ali{
+		width: 18rem;
+	}
 }

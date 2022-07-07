@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Coffee House</title>
+  </head>
+  <body>
+    <!-- nav-->
+    <nav class="navbar navbar-expand-md navbar-light " id="botonera">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" src="Logo de coffee house">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="views/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="views/promociones.html">Promociones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="views/sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="views/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--ends nav-->
+    <header> <!-- Comienza el banner -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src="img/banner.jpg" class="d-block w-100" alt="cafe negro banner">
+         </div>
+        <div class="carousel-item">
+          <img src="img/banner2.png" class="d-block w-100" alt="torta de nuez banner">
+       </div>
+      <div class="carousel-item">
+        <img src="img/banner3.png" class="d-block w-100" alt="jugos banner">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+ 
+    </header> <!-- termina el banner -->
+    <main>
+      <section class="bg-li-brown container-fluid py-3 mb-3 "><!-- mas info -->
+          <div class="row mx-5 mb-5">
+                <div class="col-12">
+                  <p class="fs-6 textoAzul ">No te pierdas de las promociones mas pedidas por nuestros clientes solo en el mes de Julio!</p>
+                  <a href="views/promociones.html" class="btn bg-brown btnStyle ">+ promos</a>
+                </div>
+      </section>
+
+    <div class="row d-flex justify-content-around  "> 
+
+     <section class="col-sm-12 col-lg-3 "><!-- cards -->
+        <div class="card h-100 ali">
+          <img src="img/promo1.jpg" class="card-img-top" alt="cafe + 2 medialunas">
+          <div class="card-body">
+            <h4 class="card-title titulos">1 café - 2 medialunas glaseadas</h4>
+            <p class="card-text textoComun">$250</p>
+            <a href="#" class="btn bg-brown btnStyle">Comprar</a>
+          </div>
+        </div>
+     </section>
+
+     <section class="col-sm-12 col-lg-3 "><!-- cards -->
+        <div class="card h-100 ali" >
+          <img src="img/promo2.jpg" class="card-img-top" alt="café helado">
+          <div class="card-body">
+            <h4 class="card-title titulos">1 postre de café con una bocha de helado</h4>
+            <p class="card-text textoComun">$180</p>
+            <a href="#" class="btn bg-brown btnStyle">Comprar</a>
+          </div>
+        </div>
+     </section>
+
+     <section class="col-sm-12 col-lg-3 "><!-- cards -->
+        <div class="card h-100 ali">
+          <img src="img/promo3.jpeg" class="card-img-top" alt="cafe + 2 medialunas + jugo">
+          <div class="card-body">
+            <h4 class="card-title titulos">1 café con 2 medialunas y jugo</h4>
+            <p class="card-text textoComun">$320</p>
+            <a href="#" class="btn bg-brown btnStyle">Comprar</a>
+          </div>
+        </div>
+     </section>
+   </div>
+   
+    </main>
+
+
+   <footer class="bg-li-brown d-flex justify-content-center"> <!-- Comienza el footer -->
+
+
+    <section>
+      <h3 class="text-center fs-5 textoComun mt-3">Nuestras redes Sociales</h3>
+      <a  href="https://www.facebook.com/">
+        <img class="chico my-2 mx-3" src="img/facebook.png">
+      </a>
+      <a  href="https://www.instagram.com/">
+        <img class="chico my-2 mx-3 " src="img/instagram.png">
+      </a>
+    </section>
+     
+   </footer> <!-- termina el footer -->
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Source+Sans+Pro:wght@600&display=swap');
+
 
 //vars fonts
-$mainFont:'Roboto', sans-serif;
-$secondaryFont:'Nunito Sans', sans-serif;
+$mainFont:'Source Sans Pro', sans-serif;
+$secondaryFont: 'Arima', cursive;
 
 //sizes
 $textSm:0.8em;
@@ -11,22 +12,29 @@ $textLg:1.6em;
 $textXl:3em;
 
 
-.textDestacado{
-	background-color: rgba(255, 252, 0, .4);
+.textoDestacado{
+	font-family: $mainFont;
+	color:$black;
 }
 
-.textBold{
-	font-weight: 600;
+.textoComun{
+	font-family: $mainFont;
+	color:$mainColor;
 }
 
-.textCenter{
-	text-align: center;
+.titulos{
+	font-family:$secondaryFont;
+	color:$blue;
+	font-weight: bold;
 }
-
-.textRight{
-	text-align: right;
+.titulos2{
+	font-family:$secondaryFont;
+	font-weight: bold;
+	color:$mainColor;
 }
-
-.textLeft{
-	text-align: left;
+.textoAzul{
+color: $blue;
+font-family:$mainFont;
+text-shadow: unset;
+text-shadow: #CCC 1px 0 10px;
 }
