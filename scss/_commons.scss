@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1, 
+h2, 
+h3,
+a{
+	font-family: $mainFont;
+	color:$keyColor;
+	padding: 10px 30px;
+}
+
+h1{
+	font-size: $textXl;
+}
+
+h2{
+	font-size: $textLg;
+}
+
+h3{
+	font-size: $textMd;
+}
+
+p{
+	font-family: $mainFont;
+	line-height: 1.4em;
+	color:$grey;
+	font-size: $textMd;
+	padding: 10px 30px;
+}
+
+
+
+// backgrounds
+.bgLight{
+	background-color:rgba(243, 240, 240, .8) ;
+}
+
+.bgDark{
+	background-color: rgba(195, 190, 190, .8);
+}
+
+//botones 
+
+.btnXl{
+	width:50%;
+	height: 30px;
+	background-color: white;
+	color: violet;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 50px;
+	font-size: 2rem;
+	/****display flex****/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

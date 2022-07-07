@@ -1,0 +1,35 @@
+//nesting - anidación
+.botonera{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $mainColor;
+	padding: 4px 30px;
+	img{
+		width: 200px;
+		@media (min-width: 280px) and (max-width: 320px){
+			width: 150px;
+		}
+	}
+	ul{
+		display: flex;
+		li{
+			list-style: none;
+			margin-right: 10px;
+			a{
+				color:$keyColor;
+				font-size:$textMd;
+				text-decoration: none;
+				font-family: $secondaryFont;
+				&:hover{
+					color:$black;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+}
+
+
+
