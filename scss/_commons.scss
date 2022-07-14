@@ -6,19 +6,17 @@
 // Fondos
 
 .bg-brown{
-	background-color: $mainColor;
-	color: $white;
+	background-color: map-get($map:$paleta, $key: 'uno')
 }
 .bg-li-brown{
 	background-color: $secondaryColor;
 }
-.cofeeBg{
-	background-image: url("../img/fondo1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	opacity: 0.5;
+.fondo{
+  background: url(../img/fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
 
 // botones
