@@ -11,10 +11,9 @@ $textMd:1em;
 $textLg:1.6em;
 $textXl:3em;
 
-
+//utilizando mixin
 .textoDestacado{
-	font-family: $mainFont;
-	color:$black;
+	@include texto($mainFont,$black,center);
 }
 
 .textoComun{
@@ -37,4 +36,22 @@ color: $blue;
 font-family:$mainFont;
 text-shadow: unset;
 text-shadow: #CCC 1px 0 10px;
+}
+.textoBlanco{
+	color: $white;
+
+}
+
+//extends
+
+.parrafos{
+    text-align: center;
+    font-size: 2em;
+    font-family: $mainFont;
+}
+
+.parrafoPrincipal{
+    @extend .parrafos;
+    color:$black;
+
 }

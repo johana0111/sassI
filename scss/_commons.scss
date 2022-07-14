@@ -7,9 +7,10 @@
 
 .bg-brown{
 	background-color: map-get($map:$paleta, $key: 'uno')
-}
+}//utilizando map
+
 .bg-li-brown{
-	background-color: $secondaryColor;
+	background-color: map-get($map:$paleta, $key: 'dos')
 }
 .fondo{
   background: url(../img/fondo1.jpg);

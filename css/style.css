@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima&family=Source+Sans+Pro:wght@600&display=swap");
 .textoDestacado {
   font-family: "Source Sans Pro", sans-serif;
-  color: #0f0f0e; }
+  color: #0f0f0e;
+  text-align: center; }
 
 .textoComun {
   font-family: "Source Sans Pro", sans-serif;
@@ -23,6 +24,17 @@
   text-shadow: unset;
   text-shadow: #CCC 1px 0 10px; }
 
+.textoBlanco {
+  color: #fffbf6; }
+
+.parrafos, .parrafoPrincipal {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.parrafoPrincipal {
+  color: #0f0f0e; }
+
 #botonera {
   background-color: #352728; }
   #botonera img {
@@ -39,8 +51,7 @@
   margin: 0; }
 
 .bg-brown {
-  background-color: #352728;
-  color: #fffbf6; }
+  background-color: #352728; }
 
 .bg-li-brown {
   background-color: #d3b895; }
