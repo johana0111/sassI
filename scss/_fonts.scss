@@ -5,12 +5,6 @@
 $mainFont:'Source Sans Pro', sans-serif;
 $secondaryFont: 'Arima', cursive;
 
-//sizes
-$textSm:0.8em;
-$textMd:1em;
-$textLg:1.6em;
-$textXl:3em;
-
 //utilizando mixin
 .textoDestacado{
 	@include texto($mainFont,$black,center);
